@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Phonetic Call</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="author" content="Yehor Oblyvantsov">
+    <meta name="description"
+        content="PhoneticCall is a user-friendly online tool that helps to convert radio call signs into phonetic language. This service provides an easy-to-use interface for radio enthusiasts to translate call signs into the International Radiotelephony Spelling Alphabet (IRSA). With PhoneticCall, you can ensure clear and accurate communication while transmitting call signs over the airwaves. This service is free and accessible to anyone with an internet connection. Convert your call signs with ease using PhoneticCall today!">
+    <link rel="icon" type="image/png" href="../../icon.svg">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link type="text/css" href="../../src/css/neumorphism.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="section section bg-primary overflow-hidden z-2">
+            <div class="container z-2">
+                <div class="row justify-content-center text-center pt-3">
+                    <div class="col-lg-8 col-xl-8">
+                        <h1 class="display-2 mb-3">PhoneticCall <span class="text-danger">ß</span></h1>
+                        <p class="lead px-md-6 mb-5">Welcome to PhoneticCall - the ultimate online tool for converting
+                            radio call signs into the phonetic alphabet!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <div class="form-group mt-5">
+                            <div class="d-flex flex-row mt-5 justify-content-center">
+                                <div class="input-group"><input id="callsign"
+                                        class="form-control form-control-xl bg-primary border-light shadow-soft rounded-left text-center"
+                                        placeholder="Enter your callsign" type="text" autocomplete="off"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row align-items-center justify-content-around">
+                    <div class="col-md-6 col-lg-4 d-none d-lg-block mb-5"><img class="img-fluid" src="reciever.svg"
+                            width="450px" alt="Reciever"></div>
+                    <div class="col-12 col-sm-10 col-lg-7">
+                        <div class="card bg-primary shadow-soft border-light mb-4">
+                            <div class="card-body">
+                                <div class="d-md-flex p-2">
+                                    <div>
+                                        <div
+                                            class="icon icon-shape icon-shape-sm shadow-inset border border-light rounded-circle mb-4">
+                                            <img class="img-fluid" width="40px"
+                                                src="https://em-content.zobj.net/thumbs/120/apple/354/flag-united-kingdom_1f1ec-1f1e7.png"
+                                                alt="en">
+                                        </div>
+                                    </div>
+                                    <div class="pl-1 pl-md-4">
+                                        <h3 class="h5 icon-box-title">English pronunciation (International)</h3>
+                                        <p class="icon-box-text" id="international">Please enter the call sign that needs to be transformed into phonetic alphabet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary shadow-soft border-light mb-4">
+                            <div class="card-body">
+                                <div class="d-md-flex p-2">
+                                    <div>
+                                        <div
+                                            class="icon icon-shape icon-shape-sm shadow-inset border border-light rounded-circle mb-4">
+                                            <img class="img-fluid" width="40px"
+                                                src="https://em-content.zobj.net/thumbs/120/apple/354/flag-ukraine_1f1fa-1f1e6.png"
+                                                alt="ua">
+                                        </div>
+                                    </div>
+                                    <div class="pl-1 pl-md-4">
+                                        <h3 class="h5 icon-box-title">Українська вимова</h3>
+                                        <p class="icon-box-text" id="ua">Будь ласка, введіть позивний, який потрібно трансформувати у фонетичний алфавіт.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-primary shadow-soft border-light mb-4">
+                            <div class="card-body">
+                                <div class="d-md-flex p-3">
+                                    <div>
+                                        <div
+                                            class="icon icon-shape icon-shape-sm shadow-inset border border-light rounded-circle mb-4">
+                                            <img class="img-fluid" width="40px"
+                                                src="https://em-content.zobj.net/thumbs/120/apple/354/flag-russia_1f1f7-1f1fa.png"
+                                                alt="ru">
+                                        </div>
+                                    </div>
+                                    <div class="pl-1 pl-md-4">
+                                        <h3 class="h5 icon-box-title">Русское произношение</h3>
+                                        <p class="icon-box-text" id="ru">Начните вводить позывной, который необходимо трансформировать в фонетический алфавит.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/5ff79bdf02.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../src/js/neumorphism.js"></script>
+    <script src="phonetic.js"></script>
+    <script src="https://demo.themesberg.com/neumorphism-ui-pro/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
